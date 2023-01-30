@@ -8,6 +8,6 @@ from rest_framework.urlpatterns import format_suffix_patterns
 
 urlpatterns = [
     path('', views.apiOverview, name="api-overview"),
-    path('blog-keyword/', views.blog_keyword, name="blog_keyword"),
-    path('seller-keyword/', views.seller_keyword, name="seller_keyword"),    
+    path('blog-keyword', views.blog_keyword, name="blog_keyword"),
+    path('seller-keyword', views.seller_keyword, name="seller_keyword"),    
 ]
